@@ -1,0 +1,77 @@
+Team Beaver User Manual:
+===============================
+Main.py
+To select the functions press the key of the option you want to use.
+
+Menu option 1 - “Find out how a specific name compares over time”
+To select this option press 1 on the keyboard. You will be prompted to enter a name. Type in the name you wish to consider then press enter. Then there will be a 5 option sub menu.
+
+    option 1 - Press 1 to select this option, then press a key between 1 and 6 to select the region you want to consider. Finally you will be prompted to enter a year in a certain range. Once you enter the year you will then get the results of how the name you entered earlier ranked in the year you entered.
+    option 2 -  Press 2 to select this option, then press a key between 1 and 6 to select the region you want to consider. Finally you will be prompted to enter the range of years you want to consider, to consider a specific interval, enter the two names separated by a year or to consider every year that is available press -1. The system will then return the results of what year the name ranked the highest in the entered interval.
+    option 3 -  Press 3 to select this option, then press a key between 1 and 6 to select the region you want to consider. You will then be prompted to select the name for men or for women. Press the 1 key to consider men or the 2 keys to consider women. After that the graph will pop up. When you are done with the graph, exit the window and you can choose to run another program.
+    option 4 - Press 4 to select this option, then press a key between 1 and 6 to select the region you want to consider. Finally you will be prompted to enter the range of years you want to consider, to consider a specific interval, enter the two names separated by a year or to consider every year that is available press -1. The system will then return the results of what year the name was used the most in the entered interval.
+    option 5 -  Press 5 to select this option, then press a key between 1 and 6 to select the region you want to consider. You will then be prompted to select the name for men or for women. Press the 1 key to consider men or the 2 keys to consider women. After that the graph will pop up. When you are done with the graph, exit the window and you can choose to run another program.
+
+Menu Option 2- “See what name are only in one out of 2 or more regions”
+The Program will prompt the user to pick between picking Male(1) or  Female(2) Once the user has inputted one or two into the console. 
+Once a gender has been selected the user is prompted to pick from 6 regions. They must input at least two regions and no more than 6. Once the user has decided on the region they desire they must enter 0 to confirm their choices. 
+After they have chosen the regions, the amount of exclusive names for each region will be displayed and then the user will choose if they would like to display each of those names for each region.
+Then the user will be asked if they would like to go back to the menu and begin the main process again
+
+
+Menu Option 3 - “See what the most popular was in a region in a given year”
+	Step 1 - Select a data file by using the number alongside
+	Step 2 - Select the gender of the name, entering 1 for male and 2 for female.
+    Step 3 - Specify on the type of search you want.
+        Enter 1 to find for the most popular name of all time
+        Enter 2 to find the most popular name of a specific year
+    Step 4 - Enter a specific year within the displayed range if 2 was selected in Step 3.
+
+
+Menu option 4 - “Sorts names which start with the letter entered by the user.”
+To select this option press 4 on the keyboard.
+    Step 1 - Start with choosing the CSV datafile (enter a number between 1 and 6)
+    Step 2 - Enter the gender (1 for male, 2 for female, 3 for both)
+    Step 3 - Enter the letter for which will be used to determine all of the names in the file(s).
+    Step 4 - Determine the time frame 
+    Press 1 to evaluate data over one year
+    Enter any year that is available
+    Press 2 to evaluate data over many years
+    Enter a year that is available and press enter 
+    Do this until you chose all of the years that you want to evaluate for
+    Press 0 to exit the loop
+    Press 3 to evaluate data for all possible years in the file
+    Step 5 - Choose how much data to ignore to increase efficiency
+    Press 1 to use all names in the file regardless of popularity of the name
+    Press 2 to ignore names that has a total amount of 1 per year
+    Press 3 to ignore names that have a total amount of 2 or less per year
+    Press 4 to ignore names that have a total amount of 5 or less per year
+    Press 5 to ignore names that have a total amount of 10 or less per year
+    <The program will then print out the top 50 names which starts with the given letter>
+    Step 6 - View the data visually (displays a bar graph of the data)
+    Press ‘y’ to view the data visually
+    Press ‘n’ to not view the data visually
+
+Menu Option 5 - “See the percentage of different ethnic groups from 1980-2018”
+When the user selects 5 the user can choose between analysing the Male(1) or Female(2) populations, they then decide the regions (5-6),
+ if the code has been not been run before the user will be prompted to decide whether they would actually like to run the code due 
+ to the potentially long time to process the data.
+It will then automatically display a popup graph. Once the graph has been closed the user will be prompted 
+if they would like to return to the original menu.
+
+Menu Option 6 - “See what the most popular was in a region in a given year”
+    Step 1 - Select the gender of the name, entering 1 for male, 2 for female or 3 for both.
+    Step 2 - Enter a specific year within the displayed range.
+
+Menu Option 0 - “Exit”
+When this option is selected the program ends
+
+===============================
+
+MostFrequentTest.py
+to run the file, open a linux shell in the teamproject2250 directory and type in the command
+“./QuestionSourceFiles/MostFrequentTest.py”
+
+SpecificNameTesting.py
+to operate the this file run it from in the teamproject2250 directory using the command “./QuestionSourceFiles/SpecificNameTesting.py”
+a menu will then come up with 6 options. Press the number key that corresponds to the option you want to select. Depending on the option you will be prompted to run test cases. Press y or n to choose whether you want to run those test cases or not. For other functions that require user input. First press a key from 1-6 to select the region you want to consider then enter a single year or two years depending on what the function asks.
